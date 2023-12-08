@@ -1,5 +1,8 @@
 # simpleChatProto
 
+### vite + 타입스크립트라 기본적인 타입스크립트 설치되어 있어야 함
+
+### 리액트 실행 시 npm run dev 입력
 
 Dto:
 {
