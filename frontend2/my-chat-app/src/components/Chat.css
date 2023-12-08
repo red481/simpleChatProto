@@ -1,0 +1,11 @@
+.textarea{
+  height: 100px;
+  width: 500px;
+  border-width: 10px;
+}
+
+.textareaButton{
+  height: 50px;
+  width: 50px;
+  border-width: 10px;
+}

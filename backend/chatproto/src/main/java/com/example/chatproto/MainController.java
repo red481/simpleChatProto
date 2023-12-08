@@ -1,5 +1,6 @@
 package com.example.chatproto;
 
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MainController {
 
-    @RequestMapping("/hello")
+    @PostMapping("/chat")
     public String hello() {
         return "Hello World!";
     }
